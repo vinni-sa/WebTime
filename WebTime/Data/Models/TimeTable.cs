@@ -4,7 +4,7 @@ namespace WebTime.Data.Models
 {
     public class TimeTable
     {
-        [Key] public int IdUser { get; set; }
+        [Key] public int Id { get; set; }
         public Admin Admin { get; set; }
         public string Time { get; set; }
         public Trainer Trainer { get; set; }

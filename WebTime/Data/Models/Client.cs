@@ -4,7 +4,7 @@ namespace WebTime.Data.Models
 {
     public class Client
     {
-        [Key] public int IdClient { get; set; }
+        [Key] public int Id { get; set; }
         public string TelephoneClient { get; set; }
     }
 }
