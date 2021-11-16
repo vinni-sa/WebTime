@@ -2,9 +2,10 @@
 
 namespace WebTime.Data.Models
 {
-    public class Hall
+    public class Booking
     {
         [Key] public int Id { get; set; }
-        public string NameHall { get; set; }
+        public int IdClient { get; set; }
+        public int IdTable { get; set; }
     }
 }
