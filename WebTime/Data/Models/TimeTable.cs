@@ -11,6 +11,6 @@ namespace WebTime.Data.Models
         public Hall Hall { get; set; }
         public int ClientCount { get; set; }
         public string NameTraining { get; set; }
-        public string TypeTraining { get; set; }
+        public string TypeTraining { get; set; } //TODO change to enum 
     }
 }
