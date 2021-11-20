@@ -3,41 +3,38 @@ using Microsoft.EntityFrameworkCore;
 using WebTime.Data;
 using WebTime.Data.Models;
 
-
 namespace WebTime.Services
-
 {
-    public class UserService
+    public class ClubService
     {
         private ApplicationDbContext _dbContext;
 
-        public UserService(ApplicationDbContext dbContext)
+        public ClubService(ApplicationDbContext dbContext)
         {
             _dbContext = dbContext;
         }
         
-        public DbSet<User> Get()
+        public DbSet<Club> Get()
         {
-            return _dbContext.Users;
+            return _dbContext.Clubs;
         }
         
-        public User Get(int id)
+        public Club Get(int id)
         {
-            return _dbContext.Users.First(x => x.Id == (id));
+            return _dbContext.Clubs.First(x => x.Id == (id));
         }
 
-        public void Add(User user)
+        public void Add(Club сlub)
         {
-            _dbContext.Users.Add(user);
+            _dbContext.Clubs.Add(сlub);
             _dbContext.SaveChanges();
         }
 
         public void Delete(int id)
         {
-            var userInBd = _dbContext.Users.First(x => id == x.Id);
-            _dbContext.Users.Remove(userInBd);
+            var clubInBd = _dbContext.Clubs.First(x => id == x.Id);
+            _dbContext.Clubs.Remove(clubInBd);
             _dbContext.SaveChanges();
         }
     }
-    
 }

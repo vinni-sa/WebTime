@@ -5,39 +5,37 @@ using WebTime.Data.Models;
 
 
 namespace WebTime.Services
-
 {
-    public class UserService
+    public class AdminService
     {
         private ApplicationDbContext _dbContext;
 
-        public UserService(ApplicationDbContext dbContext)
+        public AdminService(ApplicationDbContext dbContext)
         {
             _dbContext = dbContext;
         }
         
-        public DbSet<User> Get()
+        public DbSet<Admin> Get()
         {
-            return _dbContext.Users;
+            return _dbContext.Admins;
         }
         
-        public User Get(int id)
+        public Admin Get(int id)
         {
-            return _dbContext.Users.First(x => x.Id == (id));
+            return _dbContext.Admins.First(x => x.Id == (id));
         }
 
-        public void Add(User user)
+        public void Add(Admin admin)
         {
-            _dbContext.Users.Add(user);
+            _dbContext.Admins.Add(admin);
             _dbContext.SaveChanges();
         }
 
         public void Delete(int id)
         {
-            var userInBd = _dbContext.Users.First(x => id == x.Id);
-            _dbContext.Users.Remove(userInBd);
+            var adminInBd = _dbContext.Admins.First(x => id == x.Id);
+            _dbContext.Admins.Remove(adminInBd);
             _dbContext.SaveChanges();
         }
     }
-    
 }
