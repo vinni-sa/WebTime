@@ -2,9 +2,9 @@
 
 namespace WebTime.Data.Models
 {
-    public class Hall
+    public class Client
     {
         [Key] public int Id { get; set; }
-        public string NameHall { get; set; }
+        public string TelephoneClient { get; set; }
     }
 }
