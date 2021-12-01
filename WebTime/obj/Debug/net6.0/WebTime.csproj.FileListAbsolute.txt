@@ -56,3 +56,15 @@ C:\Users\winni_sa\Desktop\web\TimeWeb\WebTime\WebTime\obj\Debug\net6.0\WebTime.d
 C:\Users\winni_sa\Desktop\web\TimeWeb\WebTime\WebTime\obj\Debug\net6.0\ref\WebTime.dll
 C:\Users\winni_sa\Desktop\web\TimeWeb\WebTime\WebTime\obj\Debug\net6.0\WebTime.pdb
 C:\Users\winni_sa\Desktop\web\TimeWeb\WebTime\WebTime\obj\Debug\net6.0\WebTime.genruntimeconfig.cache
+C:\Users\5\Desktop\универ\3 курс 1 семестр\Web-технологии\проект\WebTime\obj\Debug\net6.0\WebTime.csproj.AssemblyReference.cache
+C:\Users\5\Desktop\универ\3 курс 1 семестр\Web-технологии\проект\WebTime\obj\Debug\net6.0\WebTime.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\5\Desktop\универ\3 курс 1 семестр\Web-технологии\проект\WebTime\obj\Debug\net6.0\WebTime.AssemblyInfoInputs.cache
+C:\Users\5\Desktop\универ\3 курс 1 семестр\Web-технологии\проект\WebTime\obj\Debug\net6.0\WebTime.AssemblyInfo.cs
+C:\Users\5\Desktop\универ\3 курс 1 семестр\Web-технологии\проект\WebTime\obj\Debug\net6.0\WebTime.csproj.CoreCompileInputs.cache
+C:\Users\5\Desktop\универ\3 курс 1 семестр\Web-технологии\проект\WebTime\obj\Debug\net6.0\WebTime.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\5\Desktop\универ\3 курс 1 семестр\Web-технологии\проект\WebTime\obj\Debug\net6.0\WebTime.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\5\Desktop\универ\3 курс 1 семестр\Web-технологии\проект\WebTime\obj\Debug\net6.0\WebTime.RazorAssemblyInfo.cache
+C:\Users\5\Desktop\универ\3 курс 1 семестр\Web-технологии\проект\WebTime\obj\Debug\net6.0\WebTime.RazorAssemblyInfo.cs
+C:\Users\5\Desktop\универ\3 курс 1 семестр\Web-технологии\проект\WebTime\obj\Debug\net6.0\WebTime.dll
+C:\Users\5\Desktop\универ\3 курс 1 семестр\Web-технологии\проект\WebTime\obj\Debug\net6.0\ref\WebTime.dll
+C:\Users\5\Desktop\универ\3 курс 1 семестр\Web-технологии\проект\WebTime\obj\Debug\net6.0\WebTime.pdb
